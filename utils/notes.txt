@@ -1,0 +1,12 @@
+set PATH=%PATH%;D:\usr\local\Perl2x-9.110
+set PATH=%PATH%;D:\usr\local\Perl\bin
+perl2exe -v winservices.pl
+perl2exe -v winservices.cgi
+
+
+perl winservices.pl -l list.sample  -a STOP -v -t 5
+winservices.exe -l list.sample -a STATUS -v -t 5
+
+TODO:
+http://search.cpan.org/dist/HTML-HTMLDoc/lib/HTML/HTMLDoc.pm
+http://www.frankl.info/wordpress/asd/creating-pdf-with-perl
