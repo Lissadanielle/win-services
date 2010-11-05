@@ -1,0 +1,56 @@
+# #############################################################################
+# $Id$
+# $LastChangedDate$
+# $Author$
+# $Revision$
+# #############################################################################
+#
+# 'Server' 'Service' Sleep after action
+#
+'valar03-t' 'W3SVC'                            10
+'valar03-t' 'HTTPFilter'                       10
+'valar03-t' 'IISADMIN'                          5
+'valar03-t' 'HyS9FDMTaskManagerSrv'             5
+'valar03-t' 'HyS9MDMSvc'                        5
+
+'valar01-t' 'W3SVC'                            10
+'valar01-t' 'HTTPFilter'                       10
+'valar01-t' 'IISADMIN'                          5
+ 
+'valar02-t' 'HyS9FRPrint'                       5
+'valar02-t' 'HyS9FRReport'                      5
+'valar02-t' 'HyS9FRSched'                       5 
+'valar02-t' 'HyS9FRWeb'                         5
+'valar02-t' 'HyS9FRRMI'                        10
+
+'valar02-t' 'HyS9Planning'                      5
+'valar02-t' 'HyS9CALC'                          5
+'valar02-t' 'HyS9WebAnalysis'                   5
+
+# 'valar02-t' 'clr_optimization_v2.0.50727_64'    5                   
+'valar02-t' 'HyS9EPMAWebTier'                  10
+'valar02-t' 'HyS9BPMA_EventManager'            10
+'valar02-t' 'HyS9BPMA_NetJNIBridge'            10
+'valar02-t' 'HyS9BPMA_EngineManager'           10
+'valar02-t' 'HyS9BPMA_JobManager'              10             
+'valar02-t' 'HyS9EPMADataSynchronizer'         10
+'valar02-t' 'HyS9BPMA_ProcessManager'          30
+
+'valar01-t' 'Hyperion Integration Services'     5
+'valar01-t' 'HyS9eas'                          10
+'valar01-t' 'HyS9aps'                          10
+'valar01-t' 'HyS9ESBAgent11.1.1_hypservice_1'  15
+
+
+'valar02-t' 'W3SVC'                            10                 
+'valar02-t' 'HTTPFilter'                       10
+'valar02-t' 'IISADMIN'                          5
+
+        
+'valar02-t' 'HyS9Annotation'                    5       
+'valar02-t' 'HyS9Workspace'                    15       
+'valar02-t' 'Hyperion RMI Registry'             5 
+'valar02-t' 'HyS9Core1'                        15
+'valar02-t' 'OpenLDAP-slapd'                   30
+'valar02-t' 'HyS9SharedServices'                5 
+# 'valar02-t' 'HyS9Apache2'                     5

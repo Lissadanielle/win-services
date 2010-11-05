@@ -1,0 +1,12 @@
+# #############################################################################
+# $Id$
+# $Revision$
+# #############################################################################
+# 'Server' 'Service' Sleep after action
+# IIS Services
+'sahara' 'IISADMIN'      1
+'sahara' 'W3SVC'         1
+'localhost' 'HTTPFilter'    1
+'localhost' 'HyS9Apache2'         1
+'localhost' 'HyS9SharedServices'         1
+'localhost' 'OpenLDAP-slapd'         1

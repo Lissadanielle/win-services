@@ -1,0 +1,11 @@
+# #############################################################################
+# $Id$
+# $Author$
+# $LastChangedDate$
+# $Rev$
+# #############################################################################
+# 'Server' 'Service' Sleep after action
+# IIS Services
+'sahara' 'IISADMIN'      1
+'sahara' 'W3SVC'         1
+'localhost' 'HTTPFilter'    1
